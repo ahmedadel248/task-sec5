@@ -1,6 +1,3 @@
-﻿using System.Diagnostics.CodeAnalysis;
-using System.Threading.Channels;
-
 namespace op
 {
     internal class Program
@@ -38,7 +35,7 @@ namespace op
                        
                         string input = Console.ReadLine();
                         /** note 
-                        try parse method in c#  to convert string representation of a number 
+                        parse method in c#  to convert string representation of a number 
                         **/
                         if (int.TryParse(input, out int new_item))
                         {
